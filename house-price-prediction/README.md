@@ -1,4 +1,6 @@
 # 🏠House Price Prediction
+This project predicts house prices based on various features such as area, number of bedrooms, bathrooms, amenities, and location characteristics. The project includes Jupyter notebook for analysis, multiple model comparisons and a Flask REST API for
+predictions.
 
 ## 📋 Project Overview
 
@@ -32,7 +34,7 @@ house-price-prediction/
 The model predicts prices based on these 12 features:
 
 **Numeric Features:**
-- **area**: Total area of the house (in sq ft)
+- **area**: Total area of the house
 - **bedrooms**: Number of bedrooms
 - **bathrooms**: Number of bathrooms
 - **stories**: Number of stories
