@@ -32,22 +32,22 @@ house-price-prediction/
 The model predicts prices based on these 12 features:
 
 **Numeric Features:**
-- **area**: Total area of the house
-- **bedrooms**: Number of bedrooms
-- **bathrooms**: Number of bathrooms
-- **stories**: Number of stories
-- **parking**: Number of parking spaces
+- **area**: Total area of the house.
+- **bedrooms**: Number of bedrooms.
+- **bathrooms**: Number of bathrooms.
+- **stories**: Number of stories.
+- **parking**: Number of parking spaces.
 
 **Binary Features (0/1):**
-- **mainroad**: Adjacent to main road
-- **guestroom**: Has guest room
-- **basement**: Has basement
-- **hotwaterheating**: Has hot water heating system
-- **airconditioning**: Has air conditioning
-- **prefarea**: Located in preferred area
+- **mainroad**: Adjacent to main road.
+- **guestroom**: Has guest room.
+- **basement**: Has basement.
+- **hotwaterheating**: Has hot water heating system.
+- **airconditioning**: Has air conditioning.
+- **prefarea**: Located in preferred area.
 
 **Categorical Feature:**
-- **furnishingstatus**: Furnishing status (encoded)
+- **furnishingstatus**: Furnishing status.
 
 ## 🚀 Getting Started
 
@@ -100,7 +100,7 @@ Open a new terminal while keeping the API terminal running and send a POST reque
 ```bash
 python serve.py
 ```
-## Note: The above process is for running locally and uses port 5000
+### Note: The above process is for running locally and uses port 5000
 
 ## 📊 Jupyter Notebook Analysis
 
@@ -148,7 +148,7 @@ docker run -p 5050:5000 house-price-service
 
 4. This exposes API at `http://localhost:5050/predict` 
 
-## Note: The above process is for running with docker and uses port 5050
+### Note: The above process is for running with docker and uses port 5050
 
 ## ▶️How to run the project
 
@@ -186,4 +186,4 @@ python api_test.py
 2. **Train**: Run `python train.py` to train and save the model.
 3. **Serve**: Run `python predict.py` to start the API server.
 4. **Predict**: Use ` python serve.py` to make predictions locally(uses port 5000) and `python api_test.py` to make predictions using docker(uses port 5050).
-## NOTE: While running Locally or with Docker make sure that after you run the API whether on port 5000 or 5050, you open a new terminal while keeping the API terminal running.
+### NOTE: While running Locally or with Docker make sure that after you run the API whether on port 5000 or 5050, you open a new terminal while keeping the API terminal running.
