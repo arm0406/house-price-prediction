@@ -150,7 +150,7 @@ docker run -p 5050:5000 house-price-service
 
 ## Note: The above process is for running with docker and uses port 5050
 
-## How to run the project
+## ▶️How to run the project
 
 ## A. Locally
 
