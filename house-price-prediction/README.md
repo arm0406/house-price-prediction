@@ -186,5 +186,4 @@ python api_test.py
 2. **Train**: Run `python train.py` to train and save the model.
 3. **Serve**: Run `python predict.py` to start the API server.
 4. **Predict**: Use ` python serve.py` to make predictions locally(uses port 5000) and `python api_test.py` to make predictions using docker(uses port 5050).
-
 ## NOTE: While running Locally or with Docker make sure that after you run the API whether on port 5000 or 5050, you open a new terminal while keeping the API terminal running.
