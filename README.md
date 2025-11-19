@@ -159,11 +159,15 @@ docker run -p 5050:5000 house-price-service
 ```bash
 pipenv shell
 ```
-2. Run the API:
+2. Train model:
+```bash
+python train.py
+```
+3. Run the API:
 ```bash
 python predict.py
 ``` 
-3. Make prediction
+4. Make prediction
 ```bash
 python serve.py
 ```
