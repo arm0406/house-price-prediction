@@ -60,7 +60,6 @@ The model predicts prices based on these 12 features:
 1. Clone the repository:
 ```bash
 git clone https://github.com/arm0406/house-price-prediction.git
-cd house-price-prediction
 ```
 
 2. Install dependencies:
