@@ -12,7 +12,6 @@ This project builds a machine learning model to predict house prices given such 
 ## 📁 Project Structure
 
 ```
-house-price-prediction/
 ├── train.py                    # Model training script (saves trained model).
 ├── predict.py                  # Flask API server for making predictions.
 ├── serve.py                    # Test script to test locally.
@@ -54,7 +53,7 @@ The model predicts prices based on these 12 features:
 ### Prerequisites
 
 - Python 3.12
-- pip or pipenv
+- pipenv
 
 ### ⬇️Installation
 
@@ -100,6 +99,8 @@ Open a new terminal while keeping the API terminal running and send a POST reque
 ```bash
 python serve.py
 ```
+6. To exit virtual environment type 'exit' in terminals
+
 ### Note: The above process is for running locally and uses port 5000
 
 ## 📊 Jupyter Notebook Analysis
@@ -108,7 +109,7 @@ The `notebook.ipynb` includes:
 
 - **Exploratory Data Analysis (EDA)**: Dataset overview, statistics, and visualizations
 - **Feature Analysis**: Value distributions and correlations
-- **Model Comparison**: Linear Regression, Decision Tree, and Random Forest models
+- **Model Comparison**: Comparing models
 - **Feature Importance**: Analysis using Random Forest feature importance
 - **Performance Metrics**: RMSE comparison across models
 
@@ -186,4 +187,5 @@ python api_test.py
 2. **Train**: Run `python train.py` to train and save the model.
 3. **Serve**: Run `python predict.py` to start the API server.
 4. **Predict**: Use ` python serve.py` to make predictions locally(uses port 5000) and `python api_test.py` to make predictions using docker(uses port 5050).
+
 ### NOTE: While running Locally or with Docker make sure that after you run the API whether on port 5000 or 5050, you open a new terminal while keeping the API terminal running.
